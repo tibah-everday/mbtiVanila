@@ -1,0 +1,94 @@
+body {
+  background-color: black;
+}
+#contents {
+  width: 80%;
+  background-color: lightgreen;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* position: relative; */
+}
+#contents > div {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid red;
+  margin-top: 30px;
+
+  width: 100%;
+  height: 100vh;
+}
+
+#contents > div.shown {
+  /* transition: all ease 1000ms; */
+  display: flex;
+}
+#contents > div.progressBar {
+  border: 1px solid red;
+  margin-top: 30px;
+  width: 80%;
+  height: 30px;
+  position: absolute;
+  background-color: #efefef;
+  display: none;
+}
+#contents > div.progressBar > .progressBar_inside {
+  width: 30%;
+  height: 100%;
+  background-color: black;
+}
+#main {
+}
+
+#main > * {
+  margin-top: 10px;
+}
+/* #main > h1 {
+  text-align: center;
+} */
+.fakeImg {
+  width: 400px;
+  height: 400px;
+  background-color: #efefef;
+}
+
+.progressBar {
+}
+
+/* #startBtn {
+  display: block;
+} */
+
+.qna {
+}
+
+.qna > div {
+  margin-top: 10px;
+  width: 100%;
+  text-align: center;
+  background-color: #efefef;
+  border-radius: 20px;
+}
+
+.question {
+  height: 90px;
+}
+
+.answer {
+  height: 75px;
+}
+
+.answer:hover {
+  background-color: #fff;
+}
+
+#description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#description > * {
+  margin-top: 15px;
+}
