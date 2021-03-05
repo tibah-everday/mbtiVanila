@@ -27,17 +27,18 @@ body {
 }
 #contents > div.progressBar {
   border: 1px solid red;
-  margin-top: 30px;
+  margin-top: 5px;
   width: 80%;
-  height: 30px;
+  height: 15px;
   position: absolute;
   background-color: #efefef;
   display: none;
 }
 #contents > div.progressBar > .progressBar_inside {
-  width: 30%;
+  width: 8.33%;
   height: 100%;
   background-color: black;
+  transition: all ease 0.5s;
 }
 #main {
 }
@@ -54,15 +55,9 @@ body {
   background-color: #efefef;
 }
 
-.progressBar {
-}
-
 /* #startBtn {
   display: block;
 } */
-
-.qna {
-}
 
 .qna > div {
   margin-top: 10px;
